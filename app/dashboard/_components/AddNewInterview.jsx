@@ -69,6 +69,7 @@ function AddNewInterview() {
             
         } catch (error) {
             console.error('Error:', error);
+            alert('Something went wrong while generating the interview questions. Please try again later.');
         } finally {
             setLoading(false);
         }
